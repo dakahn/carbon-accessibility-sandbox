@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.4",
+    "carbon-components": "^9.61.3",
+    "carbon-components-react": "^6.60.2",
+    "carbon-icons": "^7.0.7",
     "gatsby": "^2.0.33",
     "gatsby-plugin-styled-components": "^3.0.4",
     "react": "^16.5.1",

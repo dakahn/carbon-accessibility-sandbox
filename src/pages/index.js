@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default () => (
-  <>
+  <Main>
     <H1>
       Carbon Accessibility Sandbox{' '}
       <span
@@ -15,32 +15,45 @@ export default () => (
     <nav>
       <Ul>
         <li>
-          <a href="/johnny">Johnny</a>
+          <a href="/johnny">Jackie is a punk</a>
         </li>
         <li>
-          <a href="/joey">Joey</a>
+          <a href="/joey">Judy is a runt</a>
         </li>
         <li>
-          <a href="/tommy">Tommy</a>
+          <a href="/tommy">They both went down to Berlin</a>
         </li>
         <li>
-          <a href="/deedee">DeeDee</a>
+          <a href="/deedee">Joined the Ice Capades</a>
         </li>
         <li>
-          <a href="/marky">Marky</a>
+          <a href="/marky">and oh, I don't know why</a>
         </li>
         <li>
-          <a href="/richie">Richie</a>
+          <a href="/richie">Oh, I don't know why</a>
         </li>
       </Ul>
     </nav>
-  </>
+  </Main>
 );
 
+const Main = styled.main`
+  font-family: sans-serif;
+  margin-left: 2rem;
+`;
+
 const H1 = styled.h1`
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 `;
 
 const Ul = styled.ul`
-  font-size: 2rem;
+  font-size: 1.5rem;
+  li {
+    margin-bottom: 1rem;
+  }
+  a:focus {
+    outline: 3px solid blue;
+  }
 `;
