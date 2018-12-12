@@ -1,10 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 
 export default () => (
   <>
-    <h1>Carbon Accessibility Sandbox</h1>
+    <H1>
+      Carbon Accessibility Sandbox{' '}
+      <span
+        role="img"
+        aria-label="A blue sign with a white graphic of a person sitting in a wheelchair"
+      >
+        ♿
+      </span>
+    </H1>
     <nav>
-      <ul>
+      <Ul>
         <li>
           <a href="/johnny">Johnny</a>
         </li>
@@ -23,7 +32,15 @@ export default () => (
         <li>
           <a href="/richie">Richie</a>
         </li>
-      </ul>
+      </Ul>
     </nav>
   </>
 );
+
+const H1 = styled.h1`
+  font-size: 4rem;
+`;
+
+const Ul = styled.ul`
+  font-size: 2rem;
+`;
