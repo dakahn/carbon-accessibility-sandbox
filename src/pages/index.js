@@ -39,11 +39,11 @@ export default () => (
 
 const Main = styled.main`
   font-family: sans-serif;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 `;
 
 const H1 = styled.h1`
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
 `;
@@ -51,7 +51,8 @@ const H1 = styled.h1`
 const Ul = styled.ul`
   font-size: 1.5rem;
   li {
-    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
   }
   a:focus {
     outline: 3px solid blue;
