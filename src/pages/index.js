@@ -1,42 +1,44 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import 'carbon-components/css/carbon-components.css';
+import Layout from '../components/layout';
 
 export default () => (
-  <Main>
-    <H1>
-      Carbon Accessibility Sandbox{' '}
-      <span
-        role="img"
-        aria-label="A blue sign with a white graphic of a person sitting in a wheelchair moving quickly"
-      >
-        ♿
-      </span>
-    </H1>
-    <nav>
-      <Ul>
-        <li>
-          <Link to="/johnny">Jackie is a punk</Link>
-        </li>
-        <li>
-          <Link to="/joey">Judy is a runt</Link>
-        </li>
-        <li>
-          <Link to="/tommy">They both went down to Berlin</Link>
-        </li>
-        <li>
-          <Link to="/deedee">Joined the Ice Capades</Link>
-        </li>
-        <li>
-          <Link to="/marky">and oh, I don't know why</Link>
-        </li>
-        <li>
-          <Link to="/richie">Oh, I don't know why</Link>
-        </li>
-      </Ul>
-    </nav>
-  </Main>
+  <Layout>
+    <Main>
+      <H1>
+        Carbon Accessibility Sandbox{' '}
+        <span
+          role="img"
+          aria-label="A blue sign with a white graphic of a person sitting in a wheelchair moving quickly"
+        >
+          ♿
+        </span>
+      </H1>
+      <nav>
+        <Ul>
+          <li>
+            <Link to="/johnny">Jackie is a punk</Link>
+          </li>
+          <li>
+            <Link to="/joey">Judy is a runt</Link>
+          </li>
+          <li>
+            <Link to="/tommy">They both went down to Berlin</Link>
+          </li>
+          <li>
+            <Link to="/deedee">Joined the Ice Capades</Link>
+          </li>
+          <li>
+            <Link to="/marky">and oh, I don't know why</Link>
+          </li>
+          <li>
+            <Link to="/richie">Oh, I don't know why</Link>
+          </li>
+        </Ul>
+      </nav>
+    </Main>
+  </Layout>
 );
 
 const Main = styled.main`
