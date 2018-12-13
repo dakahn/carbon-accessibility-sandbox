@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from 'carbon-components-react';
+import { Link } from 'gatsby';
+import 'carbon-components/css/carbon-components.css';
 
 export default () => (
   <Main>
@@ -8,7 +9,7 @@ export default () => (
       Carbon Accessibility Sandbox{' '}
       <span
         role="img"
-        aria-label="A blue sign with a white graphic of a person sitting in a wheelchair"
+        aria-label="A blue sign with a white graphic of a person sitting in a wheelchair moving quickly"
       >
         ♿
       </span>
@@ -16,22 +17,22 @@ export default () => (
     <nav>
       <Ul>
         <li>
-          <a href="/johnny">Jackie is a punk</a>
+          <Link to="/johnny">Jackie is a punk</Link>
         </li>
         <li>
-          <a href="/joey">Judy is a runt</a>
+          <Link to="/joey">Judy is a runt</Link>
         </li>
         <li>
-          <a href="/tommy">They both went down to Berlin</a>
+          <Link to="/tommy">They both went down to Berlin</Link>
         </li>
         <li>
-          <a href="/deedee">Joined the Ice Capades</a>
+          <Link to="/deedee">Joined the Ice Capades</Link>
         </li>
         <li>
-          <a href="/marky">and oh, I don't know why</a>
+          <Link to="/marky">and oh, I don't know why</Link>
         </li>
         <li>
-          <a href="/richie">Oh, I don't know why</a>
+          <Link to="/richie">Oh, I don't know why</Link>
         </li>
       </Ul>
     </nav>
@@ -39,23 +40,21 @@ export default () => (
 );
 
 const Main = styled.main`
-  font-family: sans-serif;
-  margin-left: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
 `;
 
 const H1 = styled.h1`
-  font-size: 2.5rem;
-  margin-top: 4rem;
+  font-size: 3rem;
   margin-bottom: 4rem;
 `;
 
 const Ul = styled.ul`
-  font-size: 1.5rem;
   li {
-    margin-left: 0;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
   }
   a:focus {
-    outline: 3px solid blue;
+    outline: 2px solid #5aaafa;
   }
 `;
