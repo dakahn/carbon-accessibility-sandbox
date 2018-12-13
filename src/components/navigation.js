@@ -107,7 +107,7 @@ const Navigation = () => (
       </li>
     </Ul>
     <H2 id="study-nav-label">Studies</H2>
-    <Ul aria-labelledby="study-nav-label">
+    <Ul aria-labelledby="study-nav-label" id="studies">
       <li>n/a</li>
     </Ul>
   </nav>
