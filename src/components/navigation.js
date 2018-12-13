@@ -108,22 +108,21 @@ const Navigation = () => (
     </Ul>
     <H2 id="study-nav-label">Studies</H2>
     <Ul aria-labelledby="study-nav-label">
-      <li>
-        <Link to="/a-study">Link to a study</Link>
-      </li>
+      <li>n/a</li>
     </Ul>
   </nav>
 );
 
 const H2 = styled.h2`
   font-size: 2rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 `;
 
 const Ul = styled.ul`
+  margin-left: 0.5rem;
   li {
     font-size: 1.25rem;
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: 0.5rem;
   }
 
   a:focus {
@@ -131,7 +130,10 @@ const Ul = styled.ul`
     color: black;
     margin-left: -0.5rem;
     outline: 0;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
   }
 `;
 

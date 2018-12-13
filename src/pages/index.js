@@ -22,6 +22,7 @@ export default () => (
 
 const H1 = styled.h1`
   font-size: 3rem;
+  margin-bottom: 2rem;
 `;
 
 const Main = styled.main`
