@@ -135,21 +135,20 @@ const H1 = styled.h1`
 
 const H2 = styled.h2`
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 `;
 
 const Ul = styled.ul`
-  margin-left: 1.5rem;
-  width: 200px;
-
   li {
     font-size: 1.25rem;
-    margin-bottom: 1.5rem;
+    padding: 1rem 1rem 0.5rem 1rem;
   }
 
   a:focus {
-    outline: 0;
-    color: black;
     background-color: #41d6c3;
+    color: black;
+    margin-left: -0.5rem;
+    outline: 0;
+    padding: 0.5rem;
   }
 `;
