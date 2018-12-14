@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Back from '../components/back';
 
@@ -10,15 +9,7 @@ export default () => (
     <nav>
       <H2 id="section-heading">Current Studies</H2>
       <Ul aria-labelledby="section-heading">
-        <li>
-          <Link href="a-study">Link to a current study</Link>
-        </li>
-        <li>
-          <Link href="a-study">Link to a current study</Link>
-        </li>
-        <li>
-          <Link href="a-study">Link to a current study</Link>
-        </li>
+        <li>There are no case studies being conducted at this time.</li>
       </Ul>
     </nav>
   </Layout>
