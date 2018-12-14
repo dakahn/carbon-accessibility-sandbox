@@ -2,8 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-// TODO: Generalize this component so it can be used as the back on each component page as well
-const Back = () => <StyledBack to="/">Back to Topics</StyledBack>;
+const Back = props => (
+  <Div>
+    <StyledBack to={props.to}>{props.children}</StyledBack>
+  </Div>
+);
+
+const Div = styled.div`
+  margin-bottom: 1rem;
+`;
 
 const StyledBack = styled(Link)`
   :focus {

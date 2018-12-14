@@ -5,7 +5,7 @@ import Back from '../components/back';
 
 export default () => (
   <Layout>
-    <Back />
+    <Back to="/">Back to topics</Back>
     <nav>
       <H2 id="section-heading">Current Studies</H2>
       <Ul aria-labelledby="section-heading">
@@ -17,7 +17,6 @@ export default () => (
 
 const H2 = styled.h2`
   font-size: 2rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 `;
 

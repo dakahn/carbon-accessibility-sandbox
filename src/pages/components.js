@@ -6,18 +6,18 @@ import Back from '../components/back';
 
 export default () => (
   <Layout>
-    <Back />
+    <Back to="/">Back to topics</Back>
     <nav>
       <H2 id="section-heading">Components</H2>
       <Ul aria-labelledby="section-heading">
         <li>
-          <Link to="/accordion">Accordion</Link>
+          <Link to="/components/accordion">Accordion</Link>
         </li>
         <li>
-          <Link to="/breadcrumb">Breadcrumb</Link>
+          <Link to="/components/breadcrumb">Breadcrumb</Link>
         </li>
         <li>
-          <Link to="/button">Button</Link>
+          <Link to="/components/button">Button</Link>
         </li>
         <li>
           <Link to="/checkbox">Checkbox</Link>
@@ -116,7 +116,6 @@ export default () => (
 
 const H2 = styled.h2`
   font-size: 2rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 `;
 
