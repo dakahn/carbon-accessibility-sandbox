@@ -12,7 +12,16 @@ export default () => (
           <Link to="/components">Components</Link>
         </li>
         <li>
-          <Link to="/studies">Studies</Link>
+          <Link to="/studies">Case Studies</Link>
+        </li>
+        <li>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/IBM/carbon-components/issues/new/choose"
+          >
+            Create an issue on Github
+          </a>
         </li>
       </Ul>
     </nav>
