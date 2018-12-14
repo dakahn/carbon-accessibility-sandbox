@@ -1,12 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import Back from '../components/back';
 
 export default () => (
-  <React.Fragment>
-    <nav aria-labelledby="component-nav-label">
-      <H2 id="component-nav-label">Components</H2>
-      <Ul>
+  <Layout>
+    <Back />
+    <nav>
+      <H2 id="section-heading">Components</H2>
+      <Ul aria-labelledby="section-heading">
         <li>
           <Link to="/accordion">Accordion</Link>
         </li>
@@ -108,28 +111,13 @@ export default () => (
         </li>
       </Ul>
     </nav>
-    <section id="studies" tabIndex="-1">
-      <nav aria-labelledby="study-nav-label">
-        <H2 id="study-nav-label">Current Studies</H2>
-        <Ul>
-          <li>
-            <a href="a-study">Link to a current study</a>
-          </li>
-          <li>
-            <a href="a-study">Link to a current study</a>
-          </li>
-          <li>
-            <a href="a-study">Link to a current study</a>
-          </li>
-        </Ul>
-      </nav>
-    </section>
-  </React.Fragment>
+  </Layout>
 );
 
 const H2 = styled.h2`
   font-size: 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 `;
 
 const Ul = styled.ul`

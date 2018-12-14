@@ -1,25 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
-import Layout from '../components/layout';
 import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import Back from '../components/back';
 
 export default () => (
   <Layout>
-    <nav aria-labelledby="section-heading">
-      <H1 id="section-heading">Topics</H1>
-      <Ul>
+    <Back />
+    <nav>
+      <H2 id="section-heading">Current Studies</H2>
+      <Ul aria-labelledby="section-heading">
         <li>
-          <Link to="/components">Components</Link>
+          <Link href="a-study">Link to a current study</Link>
         </li>
         <li>
-          <Link to="/studies">Studies</Link>
+          <Link href="a-study">Link to a current study</Link>
+        </li>
+        <li>
+          <Link href="a-study">Link to a current study</Link>
         </li>
       </Ul>
     </nav>
   </Layout>
 );
 
-const H1 = styled.h1`
+const H2 = styled.h2`
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
