@@ -20,7 +20,7 @@ export default () => (
           <Link to="/components/button">Button</Link>
         </li>
         <li>
-          <Link to="/checkbox">Checkbox</Link>
+          <Link to="/components/checkbox">Checkbox</Link>
         </li>
         <li>
           <Link to="/code-snippet">Code Snippet</Link>
