@@ -23,91 +23,91 @@ export default () => (
           <Link to="/components/checkbox">Checkbox</Link>
         </li>
         <li>
-          <Link to="/code-snippet">Code Snippet</Link>
+          <Link to="/components/code-snippet">Code Snippet</Link>
         </li>
         <li>
-          <Link to="/content-switcher">Content Switcher</Link>
+          <Link to="/components/content-switcher">Content Switcher</Link>
         </li>
         <li>
-          <Link to="/data-table">Data Table</Link>
+          <Link to="/components/data-table">Data Table</Link>
         </li>
         <li>
-          <Link to="/date-picker">Date Picker</Link>
+          <Link to="/components/date-picker">Date Picker</Link>
         </li>
         <li>
-          <Link to="/dropdown">Dropdown</Link>
+          <Link to="/components/dropdown">Dropdown</Link>
         </li>
         <li>
-          <Link to="/file-uploader">File Uploader</Link>
+          <Link to="/components/file-uploader">File Uploader</Link>
         </li>
         <li>
-          <Link to="/form">Form</Link>
+          <Link to="/components/form">Form</Link>
         </li>
         <li>
-          <Link to="/inline-loading">Inline Loading</Link>
+          <Link to="/components/inline-loading">Inline Loading</Link>
         </li>
         <li>
-          <Link to="/link">Link</Link>
+          <Link to="/components/link">Link</Link>
         </li>
         <li>
-          <Link to="/list">List</Link>
+          <Link to="/components/list">List</Link>
         </li>
         <li>
-          <Link to="/loading">Loading</Link>
+          <Link to="/components/loading">Loading</Link>
         </li>
         <li>
-          <Link to="/loading">Loading</Link>
+          <Link to="/components/loading">Loading</Link>
         </li>
         <li>
-          <Link to="/modal">Modal</Link>
+          <Link to="/components/modal">Modal</Link>
         </li>
         <li>
-          <Link to="/notification">Notification</Link>
+          <Link to="/components/notification">Notification</Link>
         </li>
         <li>
-          <Link to="/number-input">Number Input</Link>
+          <Link to="/components/number-input">Number Input</Link>
         </li>
         <li>
-          <Link to="/overflow-menu">Overflow Menu</Link>
+          <Link to="/components/overflow-menu">Overflow Menu</Link>
         </li>
         <li>
-          <Link to="/pagination">Pagination</Link>
+          <Link to="/components/pagination">Pagination</Link>
         </li>
         <li>
-          <Link to="/progress-indicator">Progress Indicator</Link>
+          <Link to="/components/progress-indicator">Progress Indicator</Link>
         </li>
         <li>
-          <Link to="/radio-button">Radio Button</Link>
+          <Link to="/components/radio-button">Radio Button</Link>
         </li>
         <li>
-          <Link to="/search">Search</Link>
+          <Link to="/components/search">Search</Link>
         </li>
         <li>
-          <Link to="/select">Select</Link>
+          <Link to="/components/select">Select</Link>
         </li>
         <li>
-          <Link to="/slider">Slider</Link>
+          <Link to="/components/slider">Slider</Link>
         </li>
         <li>
-          <Link to="/structured-list">Structured List</Link>
+          <Link to="/components/structured-list">Structured List</Link>
         </li>
         <li>
-          <Link to="/tabs">Tabs</Link>
+          <Link to="/components/tabs">Tabs</Link>
         </li>
         <li>
-          <Link to="/tag">Tag</Link>
+          <Link to="/components/tag">Tag</Link>
         </li>
         <li>
-          <Link to="/text-input">Text Input</Link>
+          <Link to="/components/text-input">Text Input</Link>
         </li>
         <li>
-          <Link to="/tile">Tile</Link>
+          <Link to="/components/tile">Tile</Link>
         </li>
         <li>
-          <Link to="/toggle">Toggle</Link>
+          <Link to="/components/toggle">Toggle</Link>
         </li>
         <li>
-          <Link to="/tooltip">Tooltip</Link>
+          <Link to="/components/tooltip">Tooltip</Link>
         </li>
       </Ul>
     </nav>
